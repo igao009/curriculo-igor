@@ -1,8 +1,4 @@
-/* Configura foto */
-.foto-perfil {
-    width: 150px;
-    height: 150px;
-}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,3 +9,18 @@ body {
 }
 
 /* Configurar o cabeçalho do projeto */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Configura foto */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: white;
+}
